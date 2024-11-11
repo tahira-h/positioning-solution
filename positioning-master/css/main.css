@@ -74,25 +74,14 @@ a:hover {
     text-decoration: none;
 }
 
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+
 /* start positioning styles */
-
-.text-align-center{
-    text-align:center;
-    background-color:aqua;
- }
- 
- 
- .margin-auto > div{
-    margin:auto;
-    width:50%;
-    background-color:beige;
-    text-align:center;
- }
-
-/* end positioning styles */
-
-
-/* Responsive 2 column CSS HTML */
 
 /* Allows box to take up full space, ignoring padding/margin */
 * {
@@ -113,8 +102,37 @@ a:hover {
     display: table;
     clear: both;
   } 
+/*ends here*/
 
-/* Responsive 2 column Layout CSS ends here */
+
+/*One column mobile*/
+
+@media all and (max-width:500px) {
+    .my-column {
+        width: 100%;
+      }
+ }
+ 
+/* One column mobile ends here*/
+
+
+
+
+
+/*step-1: alignment*/
+.text-align-center{
+    text-align:center;
+    background-color:aqua;
+ } 
+ 
+ .margin-auto > div{
+    margin:auto;
+    width:50%;
+    background-color:beige;
+    text-align:center;
+ }
+
+/*ends here */
 
 
 /*Social Media CSS*/
@@ -166,13 +184,26 @@ a:hover {
 /*Flexbox CSS on Icons ends here*/
 
 
-footer {
-    clear: both;
-    text-align: center;
-    padding: 1em;
-}
 
-/* Responsive rules */
+/* flexible image rules start here */
+
+.flexible img{
+    width:100%;
+ } 
+ 
+ .flexible{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ /* flexible image rules end here */
+
+/* end positioning styles */
+
+
+
+
+/* Responsive rules */                              /*ADD NEW CODE BEFORE THIS LINE*/ 
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
@@ -191,19 +222,6 @@ footer {
         float: left;
         margin-right: 2em;
     }
-
-    /* flexible image rules start here */
-
-    .flexible img{
-        width:100%;
-    }
-    
-    .flexible{
-        display: flex;
-        justify-content: space-evenly;
-    }
- 
- /* flexible image rules end here */
 
 }
 
@@ -243,30 +261,3 @@ footer {
     }
     
 }
-
-/*One column mobile*/
-
-@media all and (max-width:500px) {
-    .my-column {
-        width: 100%;
-      }
- }
- 
-/* One column mobile ends here*/
-
-/* flexible image rules start here */
-
-
-.flexible img{
-    width:100%;
- }
- 
- 
- .flexible{
-    display: flex;
-    justify-content: space-evenly;
- }
- 
- 
- /* flexible image rules end here */
- 
