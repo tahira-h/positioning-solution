@@ -104,22 +104,15 @@ footer {
   } 
 /*ends here*/
 
-
 /*One column mobile*/
-
 @media all and (max-width:500px) {
     .my-column {
         width: 100%;
       }
  }
- 
 /* One column mobile ends here*/
 
-
-
-
-
-/*step-1: alignment*/
+/*Default Behavior*/
 .text-align-center{
     text-align:center;
     background-color:aqua;
@@ -131,12 +124,9 @@ footer {
     background-color:beige;
     text-align:center;
  }
-
-/*ends here */
-
+/*Default Behavior ends here */
 
 /*Social Media CSS*/
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -170,23 +160,16 @@ footer {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   } 
-
 /*Social Media CSS ends here*/
 
-
 /*Flexbox CSS on Icons*/
-
 .social-container {
     display: flex;
     justify-content: space-evenly;
   } 
-
 /*Flexbox CSS on Icons ends here*/
 
-
-
 /* flexible image rules start here */
-
 .flexible img{
     width:100%;
  } 
@@ -194,16 +177,13 @@ footer {
  .flexible{
     display: flex;
     justify-content: space-evenly;
- }
- 
+ } 
  /* flexible image rules end here */
 
 /* end positioning styles */
 
 
-
-
-/* Responsive rules */                              /*ADD NEW CODE BEFORE THIS LINE*/ 
+/* Responsive rules */                              /*ADDED NEW CODE BEFORE THIS LINE*/ 
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
